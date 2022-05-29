@@ -1,6 +1,6 @@
 import { buildSchema } from "type-graphql";
 import { UserResolver } from "./resolvers/user/user-resolver";
-import { JobApplicationResolver } from '../src/resolvers/job-application/job-application-resolver'
+import { JobApplicationResolver } from "./resolvers/job-application/job-application-resolver";
 import { TypegooseMiddleware } from "./typegoose-middleware";
 import * as path from 'path';
 import { ObjectId } from "mongodb";
